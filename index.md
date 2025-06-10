@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-
 # Context-Augmentation, Prompt Engineering, and Tool-Calling Pipelines
 
 A comprehensive overview of common pipeline architectures used to extend LLM capabilities with external data, memory, tools, and structured context.
