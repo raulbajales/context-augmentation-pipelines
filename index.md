@@ -15,6 +15,7 @@ A comprehensive overview of common pipeline architectures used to extend LLM cap
 **Use Case:** Answering questions using company documentation.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     UserInput[User Input] --> EmbedQuery
@@ -26,6 +27,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -52,6 +54,7 @@ sequenceDiagram
 **Use Case:** Frequently asked support questions.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     UserInput --> CacheCheck
@@ -61,6 +64,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -86,6 +90,7 @@ sequenceDiagram
 **Use Case:** Travel planner that looks up flights and weather.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> LLM
@@ -97,6 +102,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -119,6 +125,7 @@ sequenceDiagram
 **Use Case:** Personal AI assistant that remembers your preferences.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> LLM
@@ -128,6 +135,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -150,6 +158,7 @@ sequenceDiagram
 **Use Case:** AI researcher that iteratively finds and summarizes papers.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> Agent
@@ -162,6 +171,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -186,6 +196,7 @@ sequenceDiagram
 **Use Case:** Customer support bot with form-driven answers.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> AppLogic
@@ -195,6 +206,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -218,6 +230,7 @@ sequenceDiagram
 **Use Case:** BI assistant querying a Postgres database.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> LLM
@@ -230,6 +243,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -252,6 +266,7 @@ sequenceDiagram
 **Use Case:** Legal assistant with human review for risk-sensitive advice.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> LLM
@@ -262,6 +277,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -284,6 +300,7 @@ sequenceDiagram
 **Use Case:** Multi-step task agent with retries, planning, and memory.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     Start[Start] --> Plan
@@ -295,6 +312,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant Agent
@@ -316,6 +334,7 @@ sequenceDiagram
 **Use Case:** Query answering pipeline that self-improves with training data.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> DSPyProgram
@@ -351,6 +370,7 @@ sequenceDiagram
 **Use Case:** Medical assistant reasoning over symptoms and treatments.
 
 ### Architecture Diagram
+
 ```mermaid
 graph TD
     User --> QueryParser
@@ -362,6 +382,7 @@ graph TD
 ```
 
 ### Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant User
