@@ -417,7 +417,7 @@ AI-enhanced developer experience where the LLM understands the editing context, 
 
 ```mermaid
 flowchart TD
-    UI[User Interface (IDE/Editor)] --> MCP[MCP Runtime]
+    UI[User Interface] --> MCP[MCP Runtime]
     MCP --> Context[Context Collector]
     MCP --> LLM[LLM]
     MCP --> Tools[Tooling APIs]
